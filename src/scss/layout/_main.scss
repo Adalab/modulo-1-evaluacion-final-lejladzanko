@@ -1,11 +1,116 @@
-.main-container {}
+.main {
 
-.description-main {
-    color: $secondary-green;
-    font-family: $text-font;
+    &__section {
+        padding: 35px 15px;
+    }
+
+    &__initial {
+        color: $secondary-green;
+        font-family: $text-font;
+        font-size: 14px;
+        line-height: 2.14px;
+        padding-bottom: 10px;
+        text-align: left;
+    }
+
+    &__title {
+        color: $primary-dark;
+        font-family: $title-font;
+        line-height: 1.36;
+        font-size: 20px;
+        padding-bottom: 10px;
+        text-align: left;
+    }
+
+    &__description {
+        font-family: $text-font;
+        color: $secondary-grey;
+        font-size: 18px;
+        line-height: 1.67;
+        text-align: left;
+        padding-bottom: 20px;
+    }
 }
 
-.title-main {
-    color: $primary-dark;
+.button-comprar {
+    font-family: $text-font;
+    border: 2px solid $secondary-green;
+    background-color: $primary-light;
+    color: $secondary-green;
+    font-family: $text-font;
+    font-weight: 500;
+    border-radius: 20px;
+    font-size: 15px;
+    display: inline-block;
+    text-align: center;
+    padding: 2px;
+    line-height: 2.25;
+    height: 45px;
+    width: 130px;
+    cursor: pointer;
+}
+
+.aside {
+    width: 100%;
+    background-color: $secondary-light-green;
+    text-align: center;
+    padding: 20px;
+
+
+    &__subtitle {
+        font-family: $title-font;
+        color: $secondary-grey;
+        font-size: 10px;
+    }
+
+    &__title {
+        font-family: $title-font;
+        color: $primary-dark;
+    }
+
+    &__list {
+        display: grid;
+        height: auto;
+    }
+
+    &__items {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        height: 150px;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    &__items>a {
+        height: 100px;
+    }
+
+    &__items>span {
+        height: 51px;
+    }
+
+    &__img--round {
+        border-radius: 100%;
+        max-height: 100%;
+    }
+
+    &__button {
+        background-color: $secondary-green;
+        border-radius: 20px;
+        border: 2px solid $secondary-green;
+        color: $primary-light;
+        padding: 5px 15px;
+        font-family: $text-font;
+        font-weight: 500;
+        font-size: 20px;
+        cursor: pointer;
+        // tengo que reducir el tamaño del botón
+
+    
+    }
+span{
     font-family: $title-font;
+    font-weight: 500;
+}
 }
