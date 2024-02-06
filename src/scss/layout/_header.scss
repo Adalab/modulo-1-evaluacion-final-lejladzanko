@@ -1,5 +1,14 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+.header {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    
+    
+        &__menu {
+            background-color: $secondary-green;
+            padding: 15px;
+            align-items: center;
+    
+        }
+
 }
