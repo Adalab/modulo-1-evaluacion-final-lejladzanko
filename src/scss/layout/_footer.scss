@@ -14,18 +14,37 @@
     text-align: center;
     line-height: 1.88;
     font-weight: 0;
-    
-    &__list--one, list--two{
-       cursor: pointer;
+    position: relative;
+
+    &__list--one,
+    list--two {
+        cursor: pointer;
+
     }
 
+    &__list--anchor {
+        color: white;
+    }
 
     &__heart {
         color: $secondary-green;
-        
     }
 
-   
+    &__scrollup {
+        width: 45px;
+        height: 45px;
+        background-color: $primary-light;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        z-index: 2;
+        position: absolute;
+        margin-top: -400px;
+    }
 
+    &__scroll--img {
+        height: 24px;
+        color: $secondary-green;
+    }
 }
-

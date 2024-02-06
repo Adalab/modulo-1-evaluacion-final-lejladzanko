@@ -56,7 +56,6 @@
     text-align: center;
     padding: 20px;
 
-
     &__subtitle {
         font-family: $title-font;
         color: $secondary-grey;
@@ -69,7 +68,6 @@
     }
 
     &__list {
-        display: grid;
         height: auto;
     }
 
@@ -105,12 +103,11 @@
         font-weight: 500;
         font-size: 20px;
         cursor: pointer;
-        // tengo que reducir el tamaño del botón
-
-    
+        margin-top: 15px;
     }
-span{
-    font-family: $title-font;
-    font-weight: 500;
-}
+
+    span {
+        font-family: $title-font;
+        font-weight: 500;
+    }
 }

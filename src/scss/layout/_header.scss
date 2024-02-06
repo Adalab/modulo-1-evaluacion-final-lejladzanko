@@ -2,13 +2,13 @@
     width: 100%;
     display: flex;
     position: fixed;
-    z-index: 100;
-    
-        &__menu {
-            background-color: $secondary-green;
-            padding: 15px;
-            align-items: center;
-    
-        }
+    z-index: 1;
+
+    &__menu {
+        background-color: $secondary-green;
+        padding: 15px;
+        align-items: center;
+
+    }
 
 }
