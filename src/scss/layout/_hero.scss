@@ -1,14 +1,16 @@
 .hero {
-    width: 100%;
+    max-width: 100%;
     height: 100vh;
     margin: 0 auto;
+    display: flex;
 
     &__image {
         height: auto;
         width: 100%;
+        align-items: center;
     }
 
-    &__title {
+                                .herotext {
         color: $primary-light;
         font: $title-font;
         font-size: 30px;
@@ -27,5 +29,6 @@
         line-height: 1.67;
         letter-spacing: normal;
         text-align: center;
+    
     }
 }
