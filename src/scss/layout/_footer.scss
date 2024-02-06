@@ -16,8 +16,27 @@
     font-weight: 0;
     position: relative;
 
-    &__list {
+    @media all and (min-width: 768px){
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-evenly;
+    }
+
+    &__list--one,
+    list--two {
         cursor: pointer;
+    }
+
+    &__list--one {
+        order: 2;
+    }
+
+    &__list--two {
+        order: 3;
+    }
+
+    &__list--three {
+        order: 1;
     }
 
     &__list--anchor {
@@ -39,6 +58,10 @@
         z-index: 2;
         position: absolute;
         margin-top: -400px;
+
+        @media all and (min-width: 768px) {
+            margin-top: -55px;
+        }
     }
 
     &__scroll--img {
