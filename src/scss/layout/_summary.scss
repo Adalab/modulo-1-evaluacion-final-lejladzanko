@@ -1,0 +1,51 @@
+.summary {
+
+    &__section {
+        padding: 35px 15px;
+    }
+
+    &__intro {
+        color: $secondary-green;
+        font-family: $text-font;
+        font-size: 14px;
+        line-height: 2.14px;
+        padding-bottom: 10px;
+        text-align: left;
+    }
+
+    &__title {
+        color: $primary-dark;
+        font-family: $title-font;
+        line-height: 1.36;
+        font-size: 20px;
+        padding-bottom: 10px;
+        text-align: left;
+    }
+
+    &__description {
+        font-family: $text-font;
+        color: $secondary-grey;
+        font-size: 18px;
+        line-height: 1.67;
+        text-align: left;
+        padding-bottom: 20px;
+    }
+
+    &__button--comprar {
+        font-family: $text-font;
+        border: 2px solid $secondary-green;
+        background-color: $primary-light;
+        color: $secondary-green;
+        font-family: $text-font;
+        font-weight: 500;
+        border-radius: 20px;
+        font-size: 15px;
+        display: inline-block;
+        text-align: center;
+        padding: 2px;
+        line-height: 2.25;
+        height: 45px;
+        width: 130px;
+        cursor: pointer;
+    }
+}

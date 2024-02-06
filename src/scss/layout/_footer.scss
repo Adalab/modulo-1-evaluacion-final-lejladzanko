@@ -16,10 +16,8 @@
     font-weight: 0;
     position: relative;
 
-    &__list--one,
-    list--two {
+    &__list {
         cursor: pointer;
-
     }
 
     &__list--anchor {
