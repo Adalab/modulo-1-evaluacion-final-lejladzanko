@@ -23,8 +23,13 @@
     }
 
     &__list--one,
-    list--two {
+    &__list--two {
         cursor: pointer;
+    }
+
+    &__list--one>ul>li>a:hover,
+    &__list--two>ul>li>a:hover {
+        color: $secondary-green;
     }
 
     &__list--one {

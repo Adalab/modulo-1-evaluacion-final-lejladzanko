@@ -25,20 +25,21 @@
             padding-bottom: 15px;
 
             @media all and (min-width: 768px) {
-                font-size: 6rem;
-                max-width: 690px;
+                font-size: 4rem;
+                max-width: 542px;
             }
 
             @media all and (min-width:1200px) {
-                font-size: 4.6rem;
-                max-width: 542px;
+                font-size: 5rem;
+                max-width: 680px;
+                padding-top: 100px;
             }
         }
 
         &--subtitle {
             font-family: $text-font;
             font-size: 1rem;
-            font-weight: normal;
+            font-weight: 0;
             max-width: 250px;
 
             @media all and (min-width: 768px) {
