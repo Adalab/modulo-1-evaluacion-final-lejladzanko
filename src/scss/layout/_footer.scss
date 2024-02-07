@@ -28,15 +28,21 @@
     }
 
     &__list--one {
-        order: 2;
+        @media all and (min-width: 768px){
+            order: 2; 
+        }
     }
 
     &__list--two {
-        order: 3;
+        @media all and (min-width: 768px){
+            order: 3; 
+        }
     }
 
     &__list--three {
-        order: 1;
+        @media all and (min-width: 768px){
+            order: 1;  
+        }
     }
 
     &__list--anchor {

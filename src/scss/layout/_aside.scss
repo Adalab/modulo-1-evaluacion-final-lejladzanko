@@ -2,12 +2,13 @@
     width: 100%;
     background-color: $secondary-light-green;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 
     &__intro {
         font-family: $title-font;
         color: $secondary-grey;
         font-size: 10px;
+        padding: 10px;
     }
 
     &__title {
@@ -60,7 +61,6 @@
         cursor: pointer;
         margin-top: 15px;
 
-        //   como hacer para que el botón no se alargue 
         @media all and (min-width: 768px) {
             align-items: center;
             margin-bottom: 15px;
@@ -70,5 +70,9 @@
     &__description {
         font-family: $title-font;
         font-weight: 500;
+    }
+
+    @media all and (min-width: 1200px){
+       padding: 10px 70px;
     }
 }

@@ -5,6 +5,9 @@
         @media all and (min-width: 768px) {
             padding: 37px;
         }
+        @media all and (min-width: 1200px) {
+            padding: 50px 170px;  
+        }
     }
 
     &__intro {
@@ -21,7 +24,7 @@
         font-family: $title-font;
         line-height: 1.36;
         font-size: 20px;
-        padding-bottom: 10px;
+        padding: 10px 0 20px 0;
         text-align: left;
     }
 
@@ -31,7 +34,7 @@
         font-size: 18px;
         line-height: 1.67;
         text-align: left;
-        padding-bottom: 20px;
+        padding-bottom: 40px;
     }
 
     &__button--comprar {

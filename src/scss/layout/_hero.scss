@@ -6,27 +6,32 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 90px;
+    gap: 20px;
 
     &__text {
         color: $primary-light;
-        position: absolute;
         text-align: center;
-        top: 65%;
         display: flex;
         flex-direction: column;
         align-items: center;
-
-        @media all and (min-width: 768px) {
-            top: 50%;
-        }
 
         &--title {
             font-family: $title-font;
             font-size: 2rem;
             text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+            max-width: 250px;
+            padding-bottom: 15px;
 
             @media all and (min-width: 768px) {
-                font-size: 4rem;
+                font-size: 6rem;
+                max-width: 690px;
+            }
+
+            @media all and (min-width:1200px) {
+                font-size: 4.6rem;
+                max-width: 500px;
             }
         }
 
@@ -37,17 +42,20 @@
             max-width: 250px;
 
             @media all and (min-width: 768px) {
-                font-size: 20px;
+                font-size: 1.5rem;
+                max-width: 300px;
+            }
+
+            @media all and (min-width: 1200px) {
+                max-width: 600px;
+                font-size: 1.5rem;
+                padding-bottom: 20px;
             }
         }
 
     }
 
     &__scrolldown {
-        position: absolute;
-        bottom: 10px;
-        left: 50%;
-        transform: translate(-50%);
         width: 45px;
         height: 45px;
         background-color: $primary-light;
@@ -55,7 +63,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 87%;
+    
 
         &--img {
             width: 24px;
@@ -63,4 +71,5 @@
         }
 
     }
+
 }
