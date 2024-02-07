@@ -1,8 +1,7 @@
 # Módulo 1 - Proyecto Adalab - Diseño Responsive 🚀
 
-![GitHub last commit](https://img.shields.io/github/last-commit/username/repo)
-![MIT License](https://img.shields.io/github/license/username/repo)
-
+[![Last Commit](https://img.shields.io/github/last-commit/lejladzanko/modulo-1-evaluacion-final-lejladzanko)](https://github.com/lejladzanko/modulo-1-evaluacion-final-lejladzanko/commits/main)
+[![License](https://img.shields.io/github/license/lejladzanko/modulo-1-evaluacion-final-lejladzanko)](https://github.com/lejladzanko/modulo-1-evaluacion-final-lejladzanko/blob/main/LICENSE)
 
 ## Descripción 📝
 
