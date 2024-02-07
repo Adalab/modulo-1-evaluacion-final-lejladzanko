@@ -23,10 +23,6 @@ He diseñado la página para que se adapte a tres tamaños de pantalla diferente
 
 Este proyecto está abierto para el uso y distribución bajo la [Licencia MIT](LICENSE). Eres libre de clonar, modificar y redistribuir este repositorio siempre que se incluya el reconocimiento adecuado y no se utilice para fines comerciales sin permiso previo.
 
-## Licencia 📃
-
-Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE.md](LICENSE.md) para más detalles.
-
 ## Agradecimientos 💌
 
 - Adalab por la oportunidad de aprender y crecer como desarrolladora. 
