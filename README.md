@@ -1,8 +1,5 @@
 # Módulo 1 - Proyecto Adalab - Diseño Responsive 🚀
 
-[![Last Commit](https://img.shields.io/github/last-commit/lejladzanko/modulo-1-evaluacion-final-lejladzanko)](https://github.com/lejladzanko/modulo-1-evaluacion-final-lejladzanko/commits/main)
-[![License](https://img.shields.io/github/license/lejladzanko/modulo-1-evaluacion-final-lejladzanko)](https://github.com/lejladzanko/modulo-1-evaluacion-final-lejladzanko/blob/main/LICENSE)
-
 ## Descripción 📝
 
 ¡Hola, mundo! Este es el primer proyecto que me lanzo a hacer en el fascinante universo del diseño y desarrollo web responsive. La misión era clara: crear un sitio web que se luciera en dispositivos móviles, tablets y ordenadores de escritorio. 📱💻🖥
