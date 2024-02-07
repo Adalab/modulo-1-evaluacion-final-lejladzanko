@@ -7,14 +7,18 @@
     &__intro {
         font-family: $title-font;
         color: $secondary-grey;
-        font-size: 10px;
+        font-size: 12px;
         padding: 10px;
     }
 
     &__title {
         font-family: $title-font;
+        font-size: 20px;
         color: $primary-dark;
         margin-bottom: 10px;
+        @media all and (min-width: 768px){
+            font-size: 28px;
+        }
     }
 
     &__list {
