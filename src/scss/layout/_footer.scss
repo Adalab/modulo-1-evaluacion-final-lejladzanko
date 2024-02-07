@@ -16,7 +16,7 @@
     font-weight: 0;
     position: relative;
 
-    @media all and (min-width: 768px){
+    @media all and (min-width: 768px) {
         flex-direction: row;
         align-items: baseline;
         justify-content: space-evenly;
@@ -33,22 +33,22 @@
     }
 
     &__list--one {
-        @media all and (min-width: 768px){
-            order: 2; 
+        @media all and (min-width: 768px) {
+            order: 2;
             text-align: left;
         }
     }
 
     &__list--two {
-        @media all and (min-width: 768px){
-            order: 3; 
+        @media all and (min-width: 768px) {
+            order: 3;
             text-align: left;
         }
     }
 
     &__list--three {
-        @media all and (min-width: 768px){
-            order: 1;  
+        @media all and (min-width: 768px) {
+            order: 1;
             text-align: left;
         }
     }
@@ -76,10 +76,26 @@
         @media all and (min-width: 768px) {
             margin-top: -55px;
         }
-    }
 
+        @keyframes moveUp {
+            from {
+                transform: translateY(0);
+            }
+
+            to {
+                transform: translateY(-10px);
+            }
+        }
+
+    }
+    
     &__scroll--img {
         height: 24px;
         color: $secondary-green;
+        animation-play-state: paused;
+    }
+    
+    &__scroll--img:hover {
+        animation: moveUp 0.5s infinite alternate;
     }
 }
